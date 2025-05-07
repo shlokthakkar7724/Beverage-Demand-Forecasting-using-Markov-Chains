@@ -67,6 +67,60 @@ These zones support **Demand Driven MRP (DDMRP)** strategies.
 
 This results in a **data-backed, season-aware replenishment strategy** tailored to each product.
 
+### 📊 Inventory Behavior by Product
+
+Each product was tracked over time to assess how well inventory levels aligned with the buffer zones (Red, Yellow, Green). The plots below visualize inventory behavior for each SKU across multiple seasons.
+
+---
+
+### 🥤 Coke-Raspberry
+![Coke-Raspberry Inventory](Coke-Raspberry.png)
+
+- Maintained stable inventory above the red zone throughout the simulation.
+- Minor dips below green zone occurred in mid-2025.
+- Well-buffered system with minimal risk of stockouts.
+
+---
+
+### 🥤 Coke-Cherry
+![Coke-Cherry Inventory](Coke-Cherry.png)
+
+- Inventory remained stable for most of the timeline.
+- Drop in mid-2025 brought levels close to yellow zone.
+- Performance was within acceptable tolerances.
+
+---
+
+### 🥤 Coke-Vanilla
+![Coke-Vanilla Inventory](Coke-Vanilla.png)
+
+- Consistently maintained above green zone.
+- Very low fluctuation; strong alignment with replenishment goals.
+
+---
+
+### 🥤 Coke-Zero
+![Coke-Zero Inventory](Coke-Zero.png)
+
+- Seasonal dips were observed but stayed above red zone.
+- Buffer zones effectively absorbed demand variation.
+
+---
+
+### 🥤 Diet-Coke
+![Diet-Coke Inventory](Diet-Coke.png)
+
+- Stable, high inventory across the timeline.
+- No breaches into yellow/red zones, showing ideal control.
+
+---
+
+### 🥤 Coke-Lime
+![Coke-Lime Inventory](Coke-Lime.png)
+
+- Closely aligned to green zone with minimal fluctuation.
+- Demonstrates excellent control and accurate lead-time setting.
+
 ---
 
 ## 🛠 Tools & Technologies
@@ -78,3 +132,5 @@ This results in a **data-backed, season-aware replenishment strategy** tailored 
 ---
 
 ## 📁 Repository Structure
+
+
