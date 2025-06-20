@@ -129,8 +129,6 @@ Each product was tracked over time to assess how well inventory levels aligned w
 - Markov Chain modeling
 - Inventory management logic using demand-driven principles
 
----
 
-## 📁 Repository Structure
 
 
